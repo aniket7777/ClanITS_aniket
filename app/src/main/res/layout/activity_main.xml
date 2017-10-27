@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aniket.calnits.MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/clanitsblur"
+        android:scaleType="centerCrop"
+        android:alpha="1" />
+    <LinearLayout android:background="@android:color/white"
+        android:layout_margin="65dp"
+        android:orientation="vertical"
+        android:alpha="0.7"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="LOGIN ID"
+            android:textStyle="italic"
+            android:textColorHint="@android:color/black"
+            android:layout_marginBottom="10dp"
+            />
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="PASSWORD"
+            android:textStyle="italic"
+
+            android:textColorHint="@android:color/black"
+            android:layout_marginBottom="10dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="LOGIN"
+            android:textColorHint="@android:color/white"
+            android:layout_margin="10dp"
+            android:background="@android:color/black"
+            android:alpha="1"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Create an Acccount"
+            android:layout_margin="10dp"
+            android:background="@android:color/black"
+            android:textColorHint="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Welcome to ClanITS"
+        android:textColor="#ffff"
+        android:padding="10dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="An initiative by"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        android:layout_marginTop="350dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/png"
+        android:layout_marginTop="330dp"
+        />
+</RelativeLayout>
